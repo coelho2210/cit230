@@ -1,0 +1,269 @@
+/* This is for screened devices */
+
+/* 1. Imports
+2. General Style Rules
+3. Mobile First Style Rules
+4. Large Screen Rules */
+
+/* 1. Imports*/
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+/* 2. General Style Rules*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: sansita, sans-serif;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+}
+
+#page-header>h1 {
+  font-family: helvetica, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#hourly {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+#hourly ul {
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+#hourly li {
+  flex-shrink: 0;
+  border-right: 1px solid blue;
+  padding: 0 5px;
+}
+
+#hourly li:last-child {
+  border-right: none;
+}
+
+
+/* 3. Mobile First Rules */
+nav {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  left: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+
+nav ul li {
+  display: flex;
+  margin-right: 7px;
+  list-style: none;
+}
+
+
+footer {
+  margin-bottom: 3em;
+}
+
+#local-inf>p {
+  text-align: justify;
+  font-size: 0.9em;
+}
+
+#curWeather {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tile {
+  background-color: rgba(200, 200, 200, .6);
+  margin: .2em auto;
+  border: 1px solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  
+}
+
+
+#dial {
+  height: 150px;
+  width: 150px;
+  background: no-repeat center/85% url('/weathertest/images/wind-pointer.png');
+  z-index: 100;
+  margin: -.6em auto 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wind-speed {
+  margin-top: -90px;
+  margin-bottom: 100px;
+}
+
+.n {
+  transform: rotate(0deg);
+}
+
+.nw {
+  transform: rotate(315deg);
+}
+
+.w {
+  transform: rotate(270deg);
+}
+
+.sw {
+  transform: rotate(225deg);
+}
+
+.s {
+  transform: rotate(180deg);
+}
+
+.se {
+  transform: rotate(135deg);
+}
+
+.e {
+  transform: rotate(90deg);
+}
+.ne {
+  transform: rotate(45deg);
+}
+
+.clear {
+        background-image: url("/weathertest/responsive_images/clear_small.jpg");
+    }
+        
+    .cloudy {
+        background-image: url("/weathertest/responsive_images/clouds_small.jpg");
+    }
+
+    .foggy {
+        background-image: url("/weathertest/responsive_images/fog_small.jpg");
+    }
+
+    .rainy {
+        background-image: url("/weathertest/responsive_images/rain_small.jpg");
+    }
+
+    .snowy {
+        background-image: url("/weathertest/responsive_images/snow_400.jpg");
+    }
+    
+    
+
+
+
+.hide {
+  display: none;
+}
+
+#dailyTemp {
+  font-size: 5em;
+  margin: 0px;
+}
+
+#redFont {
+  color: red;
+}
+
+#blueFont {
+  color: blue;
+}
+#summary{
+ overflow: hidden;
+}
+
+#test{
+  align-items: center;
+}
+
+/* Large Screen Rules*/
+@media screen and (min-width: 750px) {
+
+  /* All large screen css rules go here */
+  body {
+    margin: 0px 50px;
+  }
+
+  nav {
+    position: unset;
+  }
+
+  nav ul {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 950px;
+  }
+
+  nav ul li {
+    padding: 10px;
+  }
+
+  nav ul li:nth-child(2) {
+    border-right: 1px solid black;
+  }
+
+  #curWeather {
+    flex-direction: row;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 30px 0px;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .tile {
+    height: 350px;
+    width: 350px;
+  }
+
+}
+.clear {
+  background-image: url("/weathertest/responsive_images/clear_large.jpg");
+}
+  
+.cloudy {
+  background-image: url("/weathertest/responsive_images/clouds_large.jpg");
+}
+
+.foggy {
+  background-image: url("/weathertest/responsive_images/fog_large.jpg");
+}
+
+.rainy {
+  background-image: url("/weathertest/responsive_images/rain_large.jpg");
+}
+
+.snowy {
+  background-image: url("/weathertest/responsive_images/snow_1200.jpg");
+}
+

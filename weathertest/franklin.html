@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Franklin, ID | Weather Site</title>
+    <meta name="description" content="Franklin Idaho Weather.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/weathertest/css/screen2.css" media="screen">
+</head>
+
+<body>
+    <header id=page-header>
+        <h1>&#9748;The Weather Site</h1>
+    </header>
+
+    <nav>
+        <ul>
+           <li><a href="index.html" alt="Current Location">Current</a></li>
+            <li><a href="/weathertest/search.html" title="Search"> Search</a></li>
+            <li><a href="/weathertest/franklin.html" title="Go to Franklin"> Franklin, ID</a></li>
+            <li><a href="/weathertest/Greenville.html" title="Go to Greenville"> Greenville, SC</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1 id="place">Franklin, Idaho</h1>
+        <section id="local-inf">
+            <p><span class="bold">Zip: </span> 83237 | <span class="bold">Elevation:</span> 4968 ft. | <span class="bold">Location:</span>
+                42.07, 111.79</p>
+        </section>
+        
+            <div id="curWeather">
+
+                <section id="temps" class="tile">
+                    <h3 class="hide">Temperature</h3>
+                    <p id="dailyTemp">55° F</p>
+                    <p><span id="redFont">64 F</span> <span id="blueFont">41 F</span></p>
+                    <p><!--Feels like--> <span id="feelTemp">41 F</span></p>
+                </section>
+
+                <section id="wind" class="tile">
+                    <h3 class="hide"> Wind</h3>
+                    <p>N</p>
+                    <!--<img id="compass" src="/weathertest/images/wind-pointer.png">-->
+                    <div id="dial" class="n"></div>
+                    <p id="wind-speed">2 mph</p>
+                    <p><span class="bold" id="wind-direction">Direction:</span> SE</p>
+                    <p><span class="bold" id="wind-gusts">Gusts:</span> 5mph</p>
+
+
+                </section>
+
+                <section id="summary" class="tile">
+                    <h3>Sunny</h3>
+                    <br><img id="Snow" src="/weathertest/images/sunny_leo1.jpg" alt="Rain">
+
+                </section>
+            </div>
+
+
+            <section id="hourly">
+                <h4>Hourly Forecast</h4>
+                <ul>
+                    <li>12:00 AM : 41</li>
+                    <li>1:00 AM : 41</li>
+                    <li>2:00 AM : 41</li>
+                    <li>3:00 AM : 41</li>
+                    <li>4:00 AM : 41</li>
+                    <li>5:00 AM : 41</li>
+                    <li>6:00 AM : 42</li>
+                    <li>7:00 AM : 44</li>
+                    <li>8:00 AM : 44</li>
+                    <li>9:00 AM : 46</li>
+                    <li>10:00 AM : 49</li>
+                    <li>11:00 AM : 51</li>
+                    <li>12:00 PM : 55</li>
+                    <li>1:00 PM : 58</li>
+                    <li>2:00 PM : 62</li>
+                    <li>3:00 PM : 64</li>
+                    <li>4:00 PM : 64</li>
+                    <li>5:00 PM : 62</li>
+                    <li>6:00 PM : 61</li>
+                    <li>7:00 PM : 60</li>
+                    <li>8:00 PM : 59</li>
+                    <li>9:00 PM : 58</li>
+                    <li>10:00 PM : 52</li>
+                    <li>11:00 PM : 48</li>
+                </ul>
+            </section>
+    </main>
+    <footer>
+        <p><a href="/index.html" title="Go to home page">Home</a></p>
+        &copy;2018 Leo Silva
+    </footer>
+    <script src="/weathertest/JS/functions.js"></script> <!-- Connect Java to the HTML page -->
+</body>
+
+</html>

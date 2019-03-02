@@ -1,0 +1,180 @@
+/* This is for screened devices */
+
+/* 1. Imports
+2. General Style Rules
+3. Mobile First Style Rules
+4. Large Screen Rules */
+
+/* 1. Imports*/
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+/* 2. General Style Rules*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sansita, sans-serif;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+}
+
+#page-header>h1 {
+    font-family: helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#hourly {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#hourly ul {
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+#hourly li {
+    flex-shrink: 0;
+    border-right: 1px solid blue;
+    padding: 0 5px;
+}
+
+#hourly li:last-child {
+    border-right: none;
+}
+
+
+/* 3. Mobile First Rules */
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+
+nav ul li {
+    margin-right: 7px;
+    list-style: none;
+}
+
+
+footer {
+    margin-bottom: 3em;
+}
+
+#loc-inf>p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+#curWeather {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tile {
+    background-color: rgba(200, 200, 200, .6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.hide {
+    display: none;
+}
+
+#dailyTemp {
+    font-size: 5em;
+    margin: 0px;
+}
+
+#redFont {
+    color: red;
+}
+
+#blueFont {
+    color: blue;
+}
+
+#summary{
+
+    overflow: hidden;
+   /* overflow-x: scroll; */
+}
+/* Large Screen Rules*/
+@media screen and (min-width: 750px) {
+
+    /* All large screen css rules go here */
+    body {
+        margin: 0px 50px;
+    }
+
+    nav {
+        position: unset;
+    }
+
+    nav ul {
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        width: 950px;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    nav ul li:nth-child(2) {
+        border-right: 1px solid black;
+    }
+
+    #curWeather {
+        flex-direction: row;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        padding: 30px 0px;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .tile {
+        height: 350px;
+        width: 350px;
+    }
+
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Media Assesment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="responsive-images">
+    <link rel="stylesheet" type="text/css" href="/weathertest/css/screen_responsive.css">
+    
+</head>
+
+<body>
+    <header id="page-header">
+        <h1>Responsive Images</h1>
+        <nav>
+            <a href="/index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+    <h2>Clear Weather</h2>
+    <figure class="Clear">
+        <picture>
+            <source media="(max-width: 750px)" srcset="/weathertest/responsive_images/clear_large.jpg">
+            <source media="(min-width: 400px)" srcset="/weathertest/responsive_images/clear_small.jpg">
+
+            <img src="/weathertest/responsive_images/clear_small.jpg" alt="clear weather" class="image_size">
+        </picture>
+        
+        <figcaption>
+            <ul class="large">
+                <li>Name: clear_large.jpg</li>
+                <li>Dimensions: 1200 X 745</li>
+                <li>Weight: 158.2kb</li>
+            </ul>
+
+            <ul class="small">
+                <li>Name: clear_small.jpg</li>
+                <li>Dimensions: 400 X 248</li>
+                <li>Weight: 21.06kb</li>
+            </ul>
+        </figcaption>
+        </figure>
+        
+    <h2>Cloudy Weather</h2>
+    <figure class="Cloudy">
+        <picture>
+            <source media="(max-width: 750px)" srcset="/weathertest/responsive_images/clouds_large.jpg">
+            <source media="(min-width:  400px)" srcset="/weathertest/responsive_images/clouds_small.jpg">
+
+            <img src="/weathertest/responsive_images/clouds_small.jpg" alt="clouds weather" class="image_size">
+        </picture>
+        <figcaption>
+            <ul class="large">
+                <li>Name: clouds_large.jpg</li>
+                <li>Dimensions: 1200 X 1030</li>
+                <li>Weight: 87.8kb</li>
+            </ul>
+
+            <ul class="small">
+                <li>Name: clouds_small.jpg</li>
+                <li>Dimensions: 400 X 343</li>
+                <li>Weight: 16.01kb</li>
+            </ul>
+        </figcaption>
+    </figure>
+        
+    <h2>Foggy Weather</h2>
+    <figure class="Foggy">
+        <picture>
+            <source media="(max-width: 750px)" srcset="/weathertest/responsive_images/fog_large.jpg">
+            <source media="(min-width: 400px)" srcset="/weathertest/responsive_images/fog_small.jpg">
+
+            <img src="/weathertest/responsive_images/fog_small.jpg" alt="foggy weather" class="image_size">
+        </picture>
+        <figcaption>
+            <ul class="large">
+                <li>Name: fog_large.jpg</li>
+                <li>Dimensions: 1200 X 675</li>
+                <li>Weight: 19.1kb</li>
+            </ul>
+
+            <ul class="small">
+                <li>Name: fog_small.jpg</li>
+                <li>Dimensions: 400 X 225</li>
+                <li>Weight: 2.89kb</li>
+            </ul>
+        </figcaption>
+    </figure>
+        
+    <h2>Rainy Weather</h2>
+    <figure class="Rain">
+        <picture>
+            <source media="(max-width: 750px)" srcset="/weathertest/responsive_images/rain_large.jpg">
+            <source media="(min-width: 400px)" srcset="/weathertest/responsive_images/rain_small.jpg">
+
+            <img src="/weathertest/responsive_images/rain_small.jpg" alt="rainy weather" class="image_size">
+        </picture>
+        <figcaption>
+            <ul class="large">
+                <li>Name: rain_large.jpg</li>
+                <li>Dimensions: 1200 X 800</li>
+                <li>Weight: 56.06kb</li>
+            </ul>
+
+            <ul class="small">
+                <li>Name: rain_small.jpg</li>
+                <li>Dimensions: 400 X 267</li>
+                <li>Weight: 7.84kb</li>
+            </ul>
+        </figcaption>
+    </figure>
+        
+    <h2>Snowy Weather</h2>
+    <figure class="Snow">
+        <picture>
+            <source media="(max-width: 750px)" srcset="/weathertest/responsive_images/snow_1200.jpg">
+            <source media="(min-width: 400px)" srcset="/weathertest/responsive_images/snow_400.jpg">
+
+            <img src="/weathertest/responsive_images/snow_400.jpg" alt="snowy weather" class="image_size">
+        </picture>
+        <figcaption>
+            <ul class="large">
+                <li>Name: snow_1200.jpg</li>
+                <li>Dimensions: 1200 X 1843</li>
+                <li>Weight: 195.01kb</li>
+            </ul>
+
+            <ul class="small">
+                <li>Name: snow_400.jpg</li>
+                <li>Dimensions: 400 X 614</li>
+                <li>Weight: 34.03kb</li>
+            </ul>
+        </figcaption>
+    </figure>
+    
+    </main>
+<footer id="page-footer">
+    &copy; 2018 &nbsp; | &nbsp; Responsive Images &nbsp; | &nbsp; <span id="date"></span> &nbsp; | &nbsp; <a href=/index.html title="Go to Home Page">Home</a>
+  
+</footer>
+
+</body>
+</html>

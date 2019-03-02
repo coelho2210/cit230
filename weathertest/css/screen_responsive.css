@@ -1,0 +1,30 @@
+/* This is for screened devices */
+
+/* 1. Imports
+2. General Style Rules
+3. Mobile First Style Rules
+4. Large Screen Rules */
+
+
+
+/* 1.imports */
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+
+
+.large {
+    display: none;
+}
+
+.image_size {
+    width: 90%;
+}
+/* Large Screen */
+@media screen and (min-width: 700px) {
+    .large {
+        display: inherit;
+    }
+    .small {
+        display: none;
+    }
+}
