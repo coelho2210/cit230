@@ -14,7 +14,7 @@ windDial(direction);
 
 
 // variables for functions use
-const condition = "Snow";
+const condition = "clear";
 // background condition image
 let curCondition = getCondition(condition);
 // change background image
