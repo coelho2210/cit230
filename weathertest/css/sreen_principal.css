@@ -14,6 +14,7 @@ html, body {
 
 body {
    background-color: #DAD2D8;
+   overflow-x: hidden;
 }
 
 p, h1, h2, h3 {
