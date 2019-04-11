@@ -175,19 +175,19 @@ footer {
 
 
 .clear {
-    background-image: url("/cit230/weathertest/current_location/image/clear_small.jpg");
+    background-image: url("/weathertest/current_location/image/clear_small.jpg");
 }
 .cloudy {
-    background-image: url("/cit230/weathertest/current_location/image/clouds_small.jpg");
+    background-image: url("/weathertest/current_location/image/clouds_small.jpg");
 }
 .fog {
-    background-image: url("/cit230/weathertest/current_location/image/fog_small.jpg");
+    background-image: url("/weathertest/current_location/image/fog_small.jpg");
 }
 .rain {
-    background-image: url("/cit230/weathertest/current_location/image/rain_small.jpg");
+    background-image: url("/weathertest/current_location/image/rain_small.jpg");
 }
 .snow {
-    background-image: url("/cit230/weathertest/current_location/image/snow_400.jpg");
+    background-image: url("/weathertest/current_location/image/snow_400.jpg");
 }
 
 #sections {
@@ -267,18 +267,18 @@ max-width: 62%;
     }
 
     .clear {
-        background-image: url("/cit230/weathertest/current_location/image/clear_large.jpg");
+        background-image: url("/weathertest/current_location/image/clear_large.jpg");
     }
     .cloudy {
-        background-image: url("/cit230/weathertest/current_location/image/clouds_large.jpg");
+        background-image: url("/weathertest/current_location/image/clouds_large.jpg");
     }
     .fog {
-        background-image: url("/cit230/weathertest/current_location/image/fog_large.jpg");
+        background-image: url("/weathertest/current_location/image/fog_large.jpg");
     }
     .rain {
-        background-image: url("/cit230/weathertest/current_location/image/rain_large.jpg");
+        background-image: url("/weathertest/current_location/image/rain_large.jpg");
     }
     .snow {
-        background-image: url("/cit230/weathertest/current_location/image/snow_1200.jpg");
+        background-image: url("/weathertest/current_location/image/snow_1200.jpg");
     }
 }
