@@ -110,7 +110,7 @@ footer {
 #dial {
   height: 150px;
   width: 150px;
-  background: no-repeat center/85% url('/cit230/weathertest/images/wind-pointer.png');
+  background: no-repeat center/85% url('/weathertest/images/wind-pointer.png');
   z-index: 100;
   margin: -.6em auto 0;
   display:flex;
@@ -155,23 +155,23 @@ footer {
 }
 
 .clear {
-        background-image: url("/cit230/weathertest/responsive_images/clear_small.jpg");
+        background-image: url("/weathertest/responsive_images/clear_small.jpg");
     }
         
     .cloudy {
-        background-image: url("/cit230/weathertest/responsive_images/clouds_small.jpg");
+        background-image: url("/weathertest/responsive_images/clouds_small.jpg");
     }
 
     .foggy {
-        background-image: url("/cit230/weathertest/responsive_images/fog_small.jpg");
+        background-image: url("/weathertest/responsive_images/fog_small.jpg");
     }
 
     .rainy {
-        background-image: url("/cit230/weathertest/responsive_images/rain_small.jpg");
+        background-image: url("/weathertest/responsive_images/rain_small.jpg");
     }
 
     .snowy {
-        background-image: url("/cit230/weathertest/responsive_images/snow_400.jpg");
+        background-image: url("/weathertest/responsive_images/snow_400.jpg");
     }
     
     
@@ -248,22 +248,22 @@ footer {
 
 }
 .clear {
-  background-image: url("/cit230/weathertest/responsive_images/clear_large.jpg");
+  background-image: url("/weathertest/responsive_images/clear_large.jpg");
 }
   
 .cloudy {
-  background-image: url("/cit230/weathertest/responsive_images/clouds_large.jpg");
+  background-image: url("/weathertest/responsive_images/clouds_large.jpg");
 }
 
 .foggy {
-  background-image: url("/cit230/weathertest/responsive_images/fog_large.jpg");
+  background-image: url("/weathertest/responsive_images/fog_large.jpg");
 }
 
 .rainy {
-  background-image: url("/cit230/weathertest/responsive_images/rain_large.jpg");
+  background-image: url("/weathertest/responsive_images/rain_large.jpg");
 }
 
 .snowy {
-  background-image: url("/cit230/weathertest/responsive_images/snow_1200.jpg");
+  background-image: url("/weathertest/responsive_images/snow_1200.jpg");
 }
 
